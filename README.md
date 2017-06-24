@@ -1,1 +1,1 @@
-# epic app
+# Epic app
