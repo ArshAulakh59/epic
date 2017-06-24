@@ -1,0 +1,547 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E96F9BA11EFE2FC8001E1B60 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E96F9BA01EFE2FC8001E1B60 /* AppDelegate.swift */; };
+		E96F9BA31EFE2FC8001E1B60 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E96F9BA21EFE2FC8001E1B60 /* ViewController.swift */; };
+		E96F9BA61EFE2FC8001E1B60 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E96F9BA41EFE2FC8001E1B60 /* Main.storyboard */; };
+		E96F9BA81EFE2FC8001E1B60 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E96F9BA71EFE2FC8001E1B60 /* Assets.xcassets */; };
+		E96F9BAB1EFE2FC8001E1B60 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E96F9BA91EFE2FC8001E1B60 /* LaunchScreen.storyboard */; };
+		E96F9BB61EFE2FC8001E1B60 /* epicTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E96F9BB51EFE2FC8001E1B60 /* epicTests.swift */; };
+		E96F9BC11EFE2FC8001E1B60 /* epicUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E96F9BC01EFE2FC8001E1B60 /* epicUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E96F9BB21EFE2FC8001E1B60 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E96F9B951EFE2FC8001E1B60 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E96F9B9C1EFE2FC8001E1B60;
+			remoteInfo = epic;
+		};
+		E96F9BBD1EFE2FC8001E1B60 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E96F9B951EFE2FC8001E1B60 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E96F9B9C1EFE2FC8001E1B60;
+			remoteInfo = epic;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E96F9B9D1EFE2FC8001E1B60 /* epic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = epic.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E96F9BA01EFE2FC8001E1B60 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E96F9BA21EFE2FC8001E1B60 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E96F9BA51EFE2FC8001E1B60 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E96F9BA71EFE2FC8001E1B60 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E96F9BAA1EFE2FC8001E1B60 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E96F9BAC1EFE2FC8001E1B60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E96F9BB11EFE2FC8001E1B60 /* epicTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = epicTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E96F9BB51EFE2FC8001E1B60 /* epicTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = epicTests.swift; sourceTree = "<group>"; };
+		E96F9BB71EFE2FC8001E1B60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E96F9BBC1EFE2FC8001E1B60 /* epicUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = epicUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E96F9BC01EFE2FC8001E1B60 /* epicUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = epicUITests.swift; sourceTree = "<group>"; };
+		E96F9BC21EFE2FC8001E1B60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E96F9B9A1EFE2FC8001E1B60 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E96F9BAE1EFE2FC8001E1B60 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E96F9BB91EFE2FC8001E1B60 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E96F9B941EFE2FC8001E1B60 = {
+			isa = PBXGroup;
+			children = (
+				E96F9B9F1EFE2FC8001E1B60 /* epic */,
+				E96F9BB41EFE2FC8001E1B60 /* epicTests */,
+				E96F9BBF1EFE2FC8001E1B60 /* epicUITests */,
+				E96F9B9E1EFE2FC8001E1B60 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E96F9B9E1EFE2FC8001E1B60 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E96F9B9D1EFE2FC8001E1B60 /* epic.app */,
+				E96F9BB11EFE2FC8001E1B60 /* epicTests.xctest */,
+				E96F9BBC1EFE2FC8001E1B60 /* epicUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E96F9B9F1EFE2FC8001E1B60 /* epic */ = {
+			isa = PBXGroup;
+			children = (
+				E96F9BA01EFE2FC8001E1B60 /* AppDelegate.swift */,
+				E96F9BA21EFE2FC8001E1B60 /* ViewController.swift */,
+				E96F9BA41EFE2FC8001E1B60 /* Main.storyboard */,
+				E96F9BA71EFE2FC8001E1B60 /* Assets.xcassets */,
+				E96F9BA91EFE2FC8001E1B60 /* LaunchScreen.storyboard */,
+				E96F9BAC1EFE2FC8001E1B60 /* Info.plist */,
+			);
+			path = epic;
+			sourceTree = "<group>";
+		};
+		E96F9BB41EFE2FC8001E1B60 /* epicTests */ = {
+			isa = PBXGroup;
+			children = (
+				E96F9BB51EFE2FC8001E1B60 /* epicTests.swift */,
+				E96F9BB71EFE2FC8001E1B60 /* Info.plist */,
+			);
+			path = epicTests;
+			sourceTree = "<group>";
+		};
+		E96F9BBF1EFE2FC8001E1B60 /* epicUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E96F9BC01EFE2FC8001E1B60 /* epicUITests.swift */,
+				E96F9BC21EFE2FC8001E1B60 /* Info.plist */,
+			);
+			path = epicUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E96F9B9C1EFE2FC8001E1B60 /* epic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E96F9BC51EFE2FC8001E1B60 /* Build configuration list for PBXNativeTarget "epic" */;
+			buildPhases = (
+				E96F9B991EFE2FC8001E1B60 /* Sources */,
+				E96F9B9A1EFE2FC8001E1B60 /* Frameworks */,
+				E96F9B9B1EFE2FC8001E1B60 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = epic;
+			productName = epic;
+			productReference = E96F9B9D1EFE2FC8001E1B60 /* epic.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E96F9BB01EFE2FC8001E1B60 /* epicTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E96F9BC81EFE2FC8001E1B60 /* Build configuration list for PBXNativeTarget "epicTests" */;
+			buildPhases = (
+				E96F9BAD1EFE2FC8001E1B60 /* Sources */,
+				E96F9BAE1EFE2FC8001E1B60 /* Frameworks */,
+				E96F9BAF1EFE2FC8001E1B60 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E96F9BB31EFE2FC8001E1B60 /* PBXTargetDependency */,
+			);
+			name = epicTests;
+			productName = epicTests;
+			productReference = E96F9BB11EFE2FC8001E1B60 /* epicTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E96F9BBB1EFE2FC8001E1B60 /* epicUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E96F9BCB1EFE2FC8001E1B60 /* Build configuration list for PBXNativeTarget "epicUITests" */;
+			buildPhases = (
+				E96F9BB81EFE2FC8001E1B60 /* Sources */,
+				E96F9BB91EFE2FC8001E1B60 /* Frameworks */,
+				E96F9BBA1EFE2FC8001E1B60 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E96F9BBE1EFE2FC8001E1B60 /* PBXTargetDependency */,
+			);
+			name = epicUITests;
+			productName = epicUITests;
+			productReference = E96F9BBC1EFE2FC8001E1B60 /* epicUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E96F9B951EFE2FC8001E1B60 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = AA;
+				TargetAttributes = {
+					E96F9B9C1EFE2FC8001E1B60 = {
+						CreatedOnToolsVersion = 9.0;
+					};
+					E96F9BB01EFE2FC8001E1B60 = {
+						CreatedOnToolsVersion = 9.0;
+						TestTargetID = E96F9B9C1EFE2FC8001E1B60;
+					};
+					E96F9BBB1EFE2FC8001E1B60 = {
+						CreatedOnToolsVersion = 9.0;
+						TestTargetID = E96F9B9C1EFE2FC8001E1B60;
+					};
+				};
+			};
+			buildConfigurationList = E96F9B981EFE2FC8001E1B60 /* Build configuration list for PBXProject "epic" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E96F9B941EFE2FC8001E1B60;
+			productRefGroup = E96F9B9E1EFE2FC8001E1B60 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E96F9B9C1EFE2FC8001E1B60 /* epic */,
+				E96F9BB01EFE2FC8001E1B60 /* epicTests */,
+				E96F9BBB1EFE2FC8001E1B60 /* epicUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E96F9B9B1EFE2FC8001E1B60 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E96F9BAB1EFE2FC8001E1B60 /* LaunchScreen.storyboard in Resources */,
+				E96F9BA81EFE2FC8001E1B60 /* Assets.xcassets in Resources */,
+				E96F9BA61EFE2FC8001E1B60 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E96F9BAF1EFE2FC8001E1B60 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E96F9BBA1EFE2FC8001E1B60 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E96F9B991EFE2FC8001E1B60 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E96F9BA31EFE2FC8001E1B60 /* ViewController.swift in Sources */,
+				E96F9BA11EFE2FC8001E1B60 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E96F9BAD1EFE2FC8001E1B60 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E96F9BB61EFE2FC8001E1B60 /* epicTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E96F9BB81EFE2FC8001E1B60 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E96F9BC11EFE2FC8001E1B60 /* epicUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E96F9BB31EFE2FC8001E1B60 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E96F9B9C1EFE2FC8001E1B60 /* epic */;
+			targetProxy = E96F9BB21EFE2FC8001E1B60 /* PBXContainerItemProxy */;
+		};
+		E96F9BBE1EFE2FC8001E1B60 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E96F9B9C1EFE2FC8001E1B60 /* epic */;
+			targetProxy = E96F9BBD1EFE2FC8001E1B60 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E96F9BA41EFE2FC8001E1B60 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E96F9BA51EFE2FC8001E1B60 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E96F9BA91EFE2FC8001E1B60 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E96F9BAA1EFE2FC8001E1B60 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E96F9BC31EFE2FC8001E1B60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E96F9BC41EFE2FC8001E1B60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E96F9BC61EFE2FC8001E1B60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = H8HMJT36V7;
+				INFOPLIST_FILE = epic/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.AA.epic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E96F9BC71EFE2FC8001E1B60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = H8HMJT36V7;
+				INFOPLIST_FILE = epic/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.AA.epic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E96F9BC91EFE2FC8001E1B60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = H8HMJT36V7;
+				INFOPLIST_FILE = epicTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.AA.epicTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/epic.app/epic";
+			};
+			name = Debug;
+		};
+		E96F9BCA1EFE2FC8001E1B60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = H8HMJT36V7;
+				INFOPLIST_FILE = epicTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.AA.epicTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/epic.app/epic";
+			};
+			name = Release;
+		};
+		E96F9BCC1EFE2FC8001E1B60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = H8HMJT36V7;
+				INFOPLIST_FILE = epicUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.AA.epicUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = epic;
+			};
+			name = Debug;
+		};
+		E96F9BCD1EFE2FC8001E1B60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = H8HMJT36V7;
+				INFOPLIST_FILE = epicUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.AA.epicUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = epic;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E96F9B981EFE2FC8001E1B60 /* Build configuration list for PBXProject "epic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E96F9BC31EFE2FC8001E1B60 /* Debug */,
+				E96F9BC41EFE2FC8001E1B60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E96F9BC51EFE2FC8001E1B60 /* Build configuration list for PBXNativeTarget "epic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E96F9BC61EFE2FC8001E1B60 /* Debug */,
+				E96F9BC71EFE2FC8001E1B60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E96F9BC81EFE2FC8001E1B60 /* Build configuration list for PBXNativeTarget "epicTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E96F9BC91EFE2FC8001E1B60 /* Debug */,
+				E96F9BCA1EFE2FC8001E1B60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E96F9BCB1EFE2FC8001E1B60 /* Build configuration list for PBXNativeTarget "epicUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E96F9BCC1EFE2FC8001E1B60 /* Debug */,
+				E96F9BCD1EFE2FC8001E1B60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E96F9B951EFE2FC8001E1B60 /* Project object */;
+}
